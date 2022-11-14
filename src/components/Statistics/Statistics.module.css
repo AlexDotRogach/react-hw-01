@@ -1,0 +1,53 @@
+.statistics {
+  max-width: 400px;
+  background: white;
+}
+
+.title {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  padding: 15px 10px;
+  flex-basis: 25%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  color: white;
+}
+
+.item label {
+  font-size: 12px;
+}
+
+.item .percentage {
+  font-size: 24px;
+}
+
+.default {
+  background: black;
+}
+
+/* .docx {
+  background: rgb(11, 177, 228);
+} */
+
+.pdf {
+  background: purple;
+}
+
+.mp3 {
+  background: rgba(204, 16, 78, 0.952);
+}
+
+.psd {
+  background: rgb(16, 253, 253);
+}

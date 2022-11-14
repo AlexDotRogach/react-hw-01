@@ -1,0 +1,38 @@
+.listItem {
+  min-width: 250px;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.itemStatus {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.isntOnline {
+  background-color: red;
+}
+
+.itemImg {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.itemText {
+  flex-grow: 2;
+}

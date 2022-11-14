@@ -1,0 +1,12 @@
+.listItem > * {
+  padding: 15px 100px;
+  text-align: center;
+}
+
+.listItem {
+  background-color: white;
+}
+
+.listItem:nth-child(2n) {
+  background-color: rgba(128, 128, 128, 0.1);
+}

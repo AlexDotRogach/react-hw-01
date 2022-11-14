@@ -1,0 +1,9 @@
+.headItem {
+  background-color: rgb(5, 229, 236);
+  color: white;
+  padding: 15px 100px;
+}
+
+.transactionHistory {
+  margin: 30px auto 0 auto;
+}
